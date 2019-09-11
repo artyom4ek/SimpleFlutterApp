@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-void main() => runApp(MyApp());
+void main() => runApp(
+    MyApp()
+);
 
 class MyApp extends StatelessWidget {
   final String _appTitle = 'Solid Software App';
