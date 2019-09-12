@@ -2,9 +2,7 @@
 
 Flutter test application for Solid Software
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Some problems
 
 Problem:
 No devices were found during project startup when using the Genymotion emulator  
