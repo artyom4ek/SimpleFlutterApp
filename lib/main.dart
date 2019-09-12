@@ -30,7 +30,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final String _title = "Hello, world!";
+  final String _title = "Hello, Solid!";
   final double _titleSize = 30.0;
   var _randomColor;
 
@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     Widget gestureDetectorSection = new GestureDetector(
       onTap: _onTap,
-      child: new Container(
+      child: Container(
         constraints: BoxConstraints.expand(),
         color: _randomColor,
         child: new Column(
